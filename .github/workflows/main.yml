@@ -13,6 +13,10 @@ jobs:
       - name: Checkout sources
         uses: actions/checkout@v2
 
+      - name: Install FFmpeg
+        run: ./.github/scripts/install_ffmpeg.sh
+        shell: bash
+
       - name: Install stable toolchain
         uses: actions-rs/toolchain@v1
         with:
@@ -32,6 +36,10 @@ jobs:
       - name: Checkout sources
         uses: actions/checkout@v2
 
+      - name: Install FFmpeg
+        run: ./.github/scripts/install_ffmpeg.sh
+        shell: bash
+
       - name: Install stable toolchain
         uses: actions-rs/toolchain@v1
         with:
@@ -50,6 +58,10 @@ jobs:
     steps:
       - name: Checkout sources
         uses: actions/checkout@v2
+
+      - name: Install FFmpeg
+        run: ./.github/scripts/install_ffmpeg.sh
+        shell: bash
 
       - name: Install stable toolchain
         uses: actions-rs/toolchain@v1
