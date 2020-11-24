@@ -1447,19 +1447,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "605dc50025dcaaeb8ce2b6b3583432b446c80c90ecd8463569dba8a040e87886"
 
 [[package]]
-name = "rs_timed_text_dump_worker"
-version = "0.1.0"
-dependencies = [
- "built",
- "mcai_worker_sdk",
- "schemars",
- "serde",
- "serde_derive",
- "stainless-ffmpeg-sys",
- "yaserde",
-]
-
-[[package]]
 name = "rustc-demangle"
 version = "0.1.18"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1829,6 +1816,19 @@ dependencies = [
  "libc",
  "wasi 0.10.0+wasi-snapshot-preview1",
  "winapi 0.3.9",
+]
+
+[[package]]
+name = "timed_text_dump_worker"
+version = "0.1.0"
+dependencies = [
+ "built",
+ "mcai_worker_sdk",
+ "schemars",
+ "serde",
+ "serde_derive",
+ "stainless-ffmpeg-sys",
+ "yaserde",
 ]
 
 [[package]]

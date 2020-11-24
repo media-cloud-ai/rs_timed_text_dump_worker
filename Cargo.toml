@@ -1,5 +1,5 @@
 [package]
-name = "rs_timed_text_dump_worker"
+name = "timed_text_dump_worker"
 version = "0.1.0"
 authors = ["Valentin NOEL <valentin.noel@media-io.com>"]
 edition = "2018"
